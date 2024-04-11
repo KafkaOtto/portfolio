@@ -1,4 +1,4 @@
-[
+{"projects": [
     {
         "id": "featured-project-trackcta",
         "title": "trackCTA",
@@ -15,7 +15,7 @@
         "id": "featured-project-asctb-reporter",
         "title": "ASCT+B Reporter",
         "year": "Jun 2020 - Jun 2021",
-        "location": "Indiana University",
+        "location": "印度大学",
         "demo": "https://hubmapconsortium.github.io/ccf-asct-reporter/",
         "github": "https://github.com/hrishikeshpaul/ccf-asct-reporter",
         "tags": ["Angular 11", "TypeScript", "NodeJS", "NGXS", "Vega", "TravisCI", "Open Source"],
@@ -61,4 +61,4 @@
         "image": "/assets/featured-projects/measure-ux.webp",
         "jpg": "/assets/featured-projects/measure-ux.jpeg"
     }
-]
+]}

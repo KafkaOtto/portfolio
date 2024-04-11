@@ -1,0 +1,30 @@
+{
+  "name": "果汁暖",
+  "logoType": {
+    "mobile": "HP",
+    "desktop": "果汁暖"
+  },
+  "mainPicture": "/assets/HP.webp",
+  "mainPictureJPG": "/assets/HP.jpeg",
+  "pronunciation": "/ri-shi-kaysh/",
+  "audioFile": "/assets/name-pro.mp3",
+  "cssVarPrefix": "hp",
+  "email": "guozhinuan2@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/hrishikeshpaul/",
+  "github": "https://github.com/KafkaOtto",
+  "resume": "https://docs.google.com/viewer?url=https://docs.google.com/document/d/1s3G7PiPHlK3Ett_W-WUU01GQnsggiLrWZB3IiMAgBEk/export?format=pdf",
+  "socials": [
+    {
+      "type": "linkedin",
+      "link": "https://www.linkedin.com/in/hrishikeshpaul/"
+    },
+    {
+      "type": "github",
+      "link": "https://github.com/hrishikeshpaul"
+    },
+    {
+      "type": "mail",
+      "link": "mailto:hrishikeshpaul12@gmail.com"
+    }
+  ]
+}

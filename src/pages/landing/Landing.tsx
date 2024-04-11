@@ -2,13 +2,15 @@ import { FC } from "react";
 
 import { Center, Container, Heading, Image, HStack, Stack, Flex, Box, IconButton, Button } from "@chakra-ui/react";
 
-import { Content, configs, useContent, MarkdownFile } from "shared/content/Content";
+import { Content, useContent, MarkdownFile } from "shared/content/Content";
 import { Socials } from "shared/socials/Socials";
 import { WorkPageId } from "utils/useScroll";
 import { ChevronDownIcon } from "utils/Icons";
+import {useTranslation} from "react-i18next";
 
 export const Landing: FC = () => {
     const content = useContent(MarkdownFile.Landing);
+    const {t} = useTranslation(['landing']);
 
     const scrollIntoView = () => {
         const featuredHeader = document.getElementById(WorkPageId);
@@ -30,7 +32,7 @@ export const Landing: FC = () => {
                                 data-aos="fade-down"
                                 data-aos-delay="400"
                             >
-                                {configs.landing.headline}
+                                {t('headline')}
                             </Heading>
                             <Content data-aos="fade-up" data-aos-delay="500" fontSize="lg">
                                 {content.landing}
@@ -47,9 +49,9 @@ export const Landing: FC = () => {
                         data-aos-delay="400"
                     >
                         <picture>
-                            <source type="image/webp" src={configs.landing.picture}></source>
-                            <source type="image/jpeg" src={configs.landing.jpg}></source>
-                            <Image borderRadius="xl" src={configs.landing.jpg} alt={`face-cover-image`} />
+                            <source type="image/webp" src={t('picture')}></source>
+                            <source type="image/jpeg" src={t('jpg')}></source>
+                            <Image borderRadius="xl" src={t('jpg')} alt={`face-cover-image`} />
                         </picture>
                     </Container>
                 </HStack>

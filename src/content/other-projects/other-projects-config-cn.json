@@ -1,7 +1,7 @@
-[
+{"projects":[
     {
         "id": "other-project-post",
-        "title": "Part of Speech Tagger",
+        "title": "Part of Speech 标记",
         "year": "Aug 2019 - Dec 2019",
         "github": "https://github.com/hrishikeshpaul/post",
         "demo": "https://hrishikeshpaul.github.io/post/",
@@ -61,4 +61,4 @@
         "image": "/assets/other-projects/nutricare.webp",
         "jpg": "/assets/other-projects/nutricare.jpeg"
     }
-]
+]}

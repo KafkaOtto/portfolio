@@ -3,22 +3,8 @@ import { FC, useEffect, useState } from "react";
 import { Text, Stack, StyleProps, Link, UnorderedList } from "@chakra-ui/react";
 import ReactMarkdown from "react-markdown";
 
-import common from "content/common/common.json";
-import landing from "content/landing/landing-config.json";
-import featuredProjects from "content/featured-projects/featured-projects-config.json";
-import otherProjects from "content/other-projects/other-projects-config.json";
-import about from "content/about/about-config.json";
-
-import LandingMd from "content/landing/landing.md";
-import AboutMd from "content/about/about.md";
-
-export const configs = {
-    common,
-    landing,
-    featuredProjects,
-    otherProjects,
-    about,
-};
+import LandingMd from "content/landing/landing-en.md";
+import AboutMd from "content/about/about-en.md";
 
 interface State {
     landing: string;
