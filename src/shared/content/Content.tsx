@@ -5,6 +5,7 @@ import ReactMarkdown from "react-markdown";
 
 import LandingMd from "content/landing/landing-en.md";
 import AboutMd from "content/about/about-en.md";
+import {useTranslation} from "react-i18next";
 
 interface State {
     landing: string;
@@ -23,12 +24,24 @@ const Mapper = {
 
 export const useContent = (fileName: MarkdownFile) => {
     const [data, setData] = useState<State>({ landing: "", about: "" });
+    const { t } = useTranslation(['markdown']);
 
     useEffect(() => {
-        fetch(Mapper[fileName])
-            .then((res) => res.text())
-            .then((text) => setData((data) => ({ ...data, [fileName]: text })));
-    }, [fileName]);
+        const fetchData = async () => {
+            try {
+                const response = await fetch(fileName === MarkdownFile.About ? t("about", { ns: 'markdown' }) : t("landing", { ns: 'markdown' }));
+                const text = await response.text();
+                setData(prevData => ({
+                    ...prevData,
+                    [fileName]: text
+                }));
+            } catch (error) {
+                console.error('Error fetching data:', error);
+            }
+        };
+
+        fetchData();
+    }, [fileName, t]);
 
     return data;
 };
