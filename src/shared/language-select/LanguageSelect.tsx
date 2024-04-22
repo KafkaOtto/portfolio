@@ -2,8 +2,8 @@ import { FC } from "react";
 
 import {HStack, Select, StyleProps, useColorModeValue} from "@chakra-ui/react";
 import * as React from "react";
-
 import {useTranslation} from "react-i18next";
+import {supportedLanguages} from "../../i18n";
 
 
 export const LanguageSelect: FC<StyleProps> = (props) => {
@@ -30,8 +30,9 @@ export const LanguageSelect: FC<StyleProps> = (props) => {
                 iconSize="xs"
                 onChange={handleLanguageChange}
             >
-                <option value='en'>EN</option>
-                <option value='cn'>CN</option>
+                {supportedLanguages.map((lang:any, index:any) => (
+                    <option key={index} value={lang}>{lang.toUpperCase()}</option>
+                ))}
             </Select>
         </HStack>
     );

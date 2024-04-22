@@ -12,19 +12,16 @@ const markdownResources = {
             landing: landingEnMd
         }
     },
-    // cn: {
-    //     markdown: {
-    //         about: aboutCnMd
-    //     }
-    // }
 };
+export const supportedLanguages = ['en', 'cn'];
 
 i18next
     .use(initReactI18next)
     .use(ChainedBackend)
     .init<ChainedBackendOptions>({
-        fallbackLng: 'en',
-        lng:"en", //default language
+        fallbackLng: supportedLanguages[0],
+        lng: supportedLanguages[0], //default language
+        supportedLngs: supportedLanguages,
         backend: {
             backends: [
                 resourcesToBackend((language:any, namespace:any) => import(`./content/${namespace}/${namespace}-config-${language}.json`)),
