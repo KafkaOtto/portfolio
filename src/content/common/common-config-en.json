@@ -4,8 +4,8 @@
         "mobile": "+31 659344602",
         "desktop": "Otto"
     },
-    "mainPicture": "/assets/guo.webp",
-    "mainPictureJPG": "/assets/guo.jpeg",
+    "mainPicture": "assets/guo.webp",
+    "mainPictureJPG": "assets/guo.jpeg",
     "pronunciation": "/ri-shi-kaysh/",
     "audioFile": "/assets/name-pro.mp3",
     "cssVarPrefix": "hp",
