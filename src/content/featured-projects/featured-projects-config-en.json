@@ -7,8 +7,8 @@
         "github": "https://github.com/KafkaOtto/journey_bill",
         "tags": ["Java", "VUE", "Kubernetes", "Docker", "MySQL", "Helm", "CI/CD", "Shell"],
         "description": "A whole platform from frontend to backend fulfilling a bill function .",
-        "image": "/assets/featured-projects/journey.webp",
-        "jpg": "/assets/featured-projects/journey.jpeg"
+        "image": "assets/featured-projects/journey.webp",
+        "jpg": "assets/featured-projects/journey.jpeg"
     },
     {
         "id": "featured-project-nlp-processing",
@@ -18,7 +18,7 @@
         "github": "https://github.com/zhiheng-yang/WDPS",
         "tags": ["Python", "Jupyter Notebook", "SHell", "NLP", "Deep Learning"],
         "description": "A collaboration with the NIH to build visualization tool to envision large biomedical datasets for researchers, doctors and experts.",
-        "image": "/assets/featured-projects/wdps.webp",
-        "jpg": "/assets/featured-projects/wdps.jpg"
+        "image": "assets/featured-projects/wdps.webp",
+        "jpg": "assets/featured-projects/wdps.jpg"
     }
 ]}

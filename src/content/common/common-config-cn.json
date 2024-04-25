@@ -4,10 +4,10 @@
     "mobile": "+31 659344602",
     "desktop": "Otto Guo"
   },
-  "mainPicture": "/assets/HP.webp",
-  "mainPictureJPG": "/assets/HP.jpeg",
+  "mainPicture": "assets/HP.webp",
+  "mainPictureJPG": "assets/HP.jpeg",
   "pronunciation": "/ri-shi-kaysh/",
-  "audioFile": "/assets/name-pro.mp3",
+  "audioFile": "assets/name-pro.mp3",
   "cssVarPrefix": "hp",
   "email": "guozhinuan2@gmail.com",
   "linkedin": "https://www.linkedin.com/in/otto-guo-5096332b8/",
