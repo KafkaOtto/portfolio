@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio_3=self.webpackChunkportfolio_3||[]).push([[326],{1326:function(e){e.exports=JSON.parse('{"headline":"\u55e8, \u6211\u662f Hrishikesh Paul.","picture":"/assets/landing/face.webp","jpg":"/assets/landing/face.jpeg"}')}}]);

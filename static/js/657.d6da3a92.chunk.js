@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio_3=self.webpackChunkportfolio_3||[]).push([[657],{2657:function(e){e.exports=JSON.parse('{"headline":"Nice To Meet You, I\'m Otto Guo.","picture":"/assets/landing/face.webp","jpg":"/assets/landing/face.JPG"}')}}]);
