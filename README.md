@@ -1,70 +1,31 @@
-# Portfolio Template 🖐
-> Version 2 of a simple, minimal and responsive personal website template, built using React, TypeScript, HTML and SCSS.
+# Portfolio Template
+This is a Portfolio Template from [portfolio-template-v2](https://github.com/hrishikeshpaul/portfolio-template-v2.git) with additional feature `language option`,
+powered by i18next.
 
-![Portfolio Template Banner](public/assets/readme/banner.png)
+To add language, modify supportedLanguages in [i18n.tsx](src/i18n.tsx) and add
+corresponding json file with {{ns}}-{{language}}.json in corresponding directory. For example,
+add about-config-en.json under src/content/about.
 
-💻  Live [demo](https://hpaul-v2.web.app/)
+As i18next doesn't natively support markdown format, adding resources for about.md and landing.md requires an additional step. First, add the necessary files,
+then explicitly include them [i18n.tsx](src/i18n.tsx) explicitly. Here's an example:
 
----
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Connect](#connect)
-- [License](#license)
-
----
-
-## Installation
-
-### Setup 
-
-Close repository
-
-```shell
-$ git clone https://github.com/hrishikeshpaul/portfolio-template-v2.git
+```javascript
+import aboutEnMd from './content/about/about-en.md'
+import landingEnMd from './content/landing/landing-en.md'
+import aboutNlMd from './content/about/about-nl.md'
+import landingNlMd from './content/landing/landing-nl.md'
+const markdownResources = {
+    en: {
+        markdown: {
+            about: aboutEnMd,
+            landing: landingEnMd
+        }
+    },
+    nl: {
+        markdown: {
+            about: aboutNlMd,
+            landing: landingNlMd
+        }
+    },
+};
 ```
-
-To install the node packages used in the project:
-
-```shell
-$ cd portfolio-template-v2
-$ yarn install
-```
-
-Compiles and hot-reloads for development
-
-```shell
-$ yarn start
-```
-
-Compiles and minifies for production
-```shell
-$ yarn build
-```
-
-## Usage
-
-All the information can be edited in the JSONs and Markdowns in the [content folder](https://github.com/hrishikeshpaul/portfolio-template-v2/tree/main/src/content). Each section of the portfolio has its own folder. The `common.json` file contains details that are used throughout the website. 
-
-All the images are in `public/assets`.
-
-## Contributing 
-
-- Clone this repo to your local machine.
-- Checkout to a new branch. Give it a relevant name!
-- Create a pull request
-
-## Connect
-
-- Website at <a href="https://hrishikeshpaul.github.io/" target="_blank">`https://hrishikeshpaul.github.io/`</a>
-- LinkedIn at <a href="https://www.linkedin.com/in/hrishikeshpaul/" target="_blank">`hrishikeshpaul`</a>
-
-## License
-
-[![license](https://img.shields.io/github/license/hrishikeshpaul/portfolio-template?style=flat&logo=appveyor)](https://github.com/hrishikeshpaul/portfolio-template-v2/blob/master/LICENSE) 
-
-- **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2022 © <a href="https://hrishikeshpaul.github.io/" target="_blank">Hrishikesh Paul</a>

@@ -1,15 +1,15 @@
 {"projects": [
     {
-        "id": "featured-project-trackcta",
-        "title": "trackCTA",
+        "id": "featured-project-journey-bill",
+        "title": "journeyBill",
         "year": "Dec 2021 - Present",
         "location": "Chicago",
         "demo": "https://www.trackcta.com/",
-        "github": "https://github.com/hrishikeshpaul/trackcta",
-        "tags": ["React", "TypeScript", "NodeJS", "Web Sockets", "i18n", "Google Maps", "GCP", "CI/CD", "Shell"],
+        "github": "https://github.com/KafkaOtto/journey_bill",
+        "tags": ["Java", "VUE", "Kubernetes", "Docker", "MySQL", "Helm", "CI/CD", "Shell"],
         "description": "An internationalized web app to track and predict Chicago Transit Authority (CTA) busses and trains.",
-        "image": "/assets/featured-projects/trackcta.webp",
-        "jpg": "/assets/featured-projects/trackcta.jpeg"
+        "image": "/assets/featured-projects/journey.webp",
+        "jpg": "/assets/featured-projects/journey.jpeg"
     },
     {
         "id": "featured-project-asctb-reporter",

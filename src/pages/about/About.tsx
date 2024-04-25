@@ -31,23 +31,23 @@ export const About: FC = () => {
                 </Box>
                 <Box flex="0.85">
                     <Heading data-aos="fade-down">{t("name", {ns: ['common']})}</Heading>
-                    <Flex alignItems="center">
-                        <Text fontWeight="bold" opacity="0.5" data-aos="fade" data-aos-delay="200">
-                            {t("pronunciation", {ns: ['common']})}
-                        </Text>
+                    {/*<Flex alignItems="center">*/}
+                    {/*    <Text fontWeight="bold" opacity="0.5" data-aos="fade" data-aos-delay="200">*/}
+                    {/*        {t("pronunciation", {ns: ['common']})}*/}
+                    {/*    </Text>*/}
 
-                        <Button
-                            size="xs"
-                            aria-label="pronunciation button"
-                            as={IconButton}
-                            variant="icon"
-                            fontSize="md"
-                            icon={<VolumeIcon />}
-                            onClick={onPlay}
-                            data-aos="fade"
-                            data-aos-delay="400"
-                        />
-                    </Flex>
+                    {/*    <Button*/}
+                    {/*        size="xs"*/}
+                    {/*        aria-label="pronunciation button"*/}
+                    {/*        as={IconButton}*/}
+                    {/*        variant="icon"*/}
+                    {/*        fontSize="md"*/}
+                    {/*        icon={<VolumeIcon />}*/}
+                    {/*        onClick={onPlay}*/}
+                    {/*        data-aos="fade"*/}
+                    {/*        data-aos-delay="400"*/}
+                    {/*    />*/}
+                    {/*</Flex>*/}
                     <Box pt="4" data-aos="fade-up" data-aos-delay="400">
                         <Content fontSize="lg">{content.about}</Content>
                     </Box>

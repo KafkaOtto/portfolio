@@ -1,32 +1,30 @@
 {
     "educations": [
         {
-            "id": "edu-1",
-            "school": "Indiana University",
-            "degree": "Master of Science in Computer Science",
-            "duration": "Aug 2019 - May 2021",
+            "id": "edu-2",
+            "school": "Vrije Universiteit Amsterdam & University Of Amsterdam",
+            "degree": "Master in Computer Science",
+            "duration": "Aug 2021 - Now",
             "content": [
-                "GPA: 4/4",
-                "Courses: Software Engineering, Distributed Systems, Operating Systems, Advanced Algorithms, Experience Design"
+                "Courses: Data Structures, OOP, Algorithms, Software Engineering, Computer Networks, Artificial Intelligence"
             ]
         },
         {
-            "id": "edu-2",
-            "school": "Manipal University",
-            "degree": "Bachelors in Computer Engineering",
-            "duration": "Aug 2015 - Jul 2019",
+            "id": "edu-1",
+            "school": "Sun Yat-Sen University",
+            "degree": "Bachelor in Software Engineering",
+            "duration": "Aug 2014 - June 2018",
             "content": [
-                "GPA: 8/10",
-                "Courses: Data Structures, OOP, Algorithms, Software Engineering, Computer Networks, Artificial Intelligence"
+                "Courses: Web Services and Cloud-Based Systems, Distributed Systems, "
             ]
         }
     ],
     "experiences": [
         {
             "id": "exp-1",
-            "company": "Reputation",
-            "position": "Software Engineer (Frontend)",
-            "duration": "Jun 2020 - Jun 2021",
+            "company": "Merchants Union Consumer Finance Company Limited",
+            "position": "Java Engineer",
+            "duration": "Jun 2018 - Jun 2020",
             "description": [
                 "Revamping the current report generation framework using React, that aggregates data from 30 modules to support an interactive cartesian system.​",
                 "Integrated user activity data from BigQuery into a custom tailored dashboard available to 10000+ clients.",
@@ -35,23 +33,13 @@
         },
         {
             "id": "exp-2",
-            "company": "CNS (NIH), Indiana University",
-            "position": "Software Engineer",
-            "duration": "Jun 2020 - Jun 2021",
+            "company": "Bigo Technology",
+            "position": "Java Engineer",
+            "duration": "Jun 2020 - August 2023",
             "description": [
                 "Developed state of the art visualization tools for researchers and doctors to envision large biological datasets using ​Angular 11​, Node & Vega.​",
                 "Devised an algorithm to compute statistics that highlight anomalies in the data and displayed them on an intuitive interface.",
                 "Created detailed UX flows, experience maps, wire-frames and conducted interviews across various biological consortia to enhance user experience."
-            ]
-        },
-        {
-            "id": "exp-3",
-            "company": "Skylark Drones",
-            "position": "Software Engineer Intern",
-            "duration": "Jan 2019 - Jun 2019",
-            "description": [
-                "Developed a web app for mission planning, control and execution using Vue & Flask, thereby improving onside project performance by 22%.​",
-                "Designed an icon set for various functionalities using ​Illustrator​, which improved usability by 20%."
             ]
         }
     ],
@@ -59,17 +47,19 @@
         {
             "title": "Programming",
             "tools": [
-                "TypeScript",
-                "JavaScript",
+                "Java",
                 "Python",
                 "C/C++",
-                "Java",
                 "NoSQL",
                 "SQL",
                 "Shell",
-                "React Native",
-                "Vega (D3.js)"
+                "TypeScript",
+                "JavaScript"
             ]
+        },
+        {
+            "title": "OS & Tools",
+            "tools": ["Docker", "Kubernetes", "Linux", "Git", "MVC", "Jenkins"]
         },
         {
             "title": "Web",
@@ -77,24 +67,7 @@
         },
         {
             "title": "Databases",
-            "tools": ["MongoDB", "Redis", "MySQL", "Firebase"]
-        },
-
-        {
-            "title": "OS & Tools",
-            "tools": ["MacOS", "Linux", "Git", "Agile (Scrum)", "MVC", "Jenkins", "Heroku", "Docker", "Kubernetes"]
-        },
-        {
-            "title": "Design & Research",
-            "tools": [
-                "Surveys",
-                "Interviews",
-                "User Research",
-                "Design Strategy",
-                "Experience Mapping",
-                "Adobe XD",
-                "Illustrator"
-            ]
+            "tools": ["Redis", "MySQL", "MongoDB"]
         }
     ],
     "blog": [
