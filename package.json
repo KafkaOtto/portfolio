@@ -2,6 +2,7 @@
   "name": "portfolio-3",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://KafkaOtto.github.io/portfolio_react_template",
   "dependencies": {
     "@chakra-ui/react": "^1.8.3",
     "@emotion/react": "^11",
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "aos": "^2.3.4",
     "framer-motion": "^5",
+    "gh-pages": "^6.1.1",
     "i18next": "^23.10.1",
     "i18next-chained-backend": "^4.6.2",
     "i18next-http-backend": "^2.5.0",
@@ -38,7 +40,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "git push prod main"
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
