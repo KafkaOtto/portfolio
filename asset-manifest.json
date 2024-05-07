@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_react_template/static/css/main.dd1e6d37.css",
-    "main.js": "/portfolio_react_template/static/js/main.2b53d058.js",
+    "main.css": "/portfolio_react_template/static/css/main.46f8ce56.css",
+    "main.js": "/portfolio_react_template/static/js/main.af7b211a.js",
     "static/js/177.e6014084.chunk.js": "/portfolio_react_template/static/js/177.e6014084.chunk.js",
     "static/js/914.9b405f08.chunk.js": "/portfolio_react_template/static/js/914.9b405f08.chunk.js",
     "static/js/384.6dbd65a2.chunk.js": "/portfolio_react_template/static/js/384.6dbd65a2.chunk.js",
@@ -18,7 +18,7 @@
     "static/js/326.25e3276b.chunk.js": "/portfolio_react_template/static/js/326.25e3276b.chunk.js",
     "static/js/657.e82e2ccf.chunk.js": "/portfolio_react_template/static/js/657.e82e2ccf.chunk.js",
     "static/js/387.3e409f6b.chunk.js": "/portfolio_react_template/static/js/387.3e409f6b.chunk.js",
-    "static/js/847.7418aba9.chunk.js": "/portfolio_react_template/static/js/847.7418aba9.chunk.js",
+    "static/js/847.c83bcc2f.chunk.js": "/portfolio_react_template/static/js/847.c83bcc2f.chunk.js",
     "static/js/787.e99e9158.chunk.js": "/portfolio_react_template/static/js/787.e99e9158.chunk.js",
     "static/js/991.97862249.chunk.js": "/portfolio_react_template/static/js/991.97862249.chunk.js",
     "static/js/539.66bb66a8.chunk.js": "/portfolio_react_template/static/js/539.66bb66a8.chunk.js",
@@ -30,11 +30,12 @@
     "static/js/527.65b1fea7.chunk.js": "/portfolio_react_template/static/js/527.65b1fea7.chunk.js",
     "static/media/Monsieur-Pomme.ttf": "/portfolio_react_template/static/media/Monsieur-Pomme.5860767b9cc93ae9dd18.ttf",
     "index.html": "/portfolio_react_template/index.html",
-    "static/media/about-en.md": "/portfolio_react_template/static/media/about-en.505de286231b2de235fd.md",
+    "static/media/about-nl.md": "/portfolio_react_template/static/media/about-nl.bca52125f60debfccafc.md",
+    "static/media/about-en.md": "/portfolio_react_template/static/media/about-en.65ccb5aa2692496ae812.md",
     "static/media/landing-en.md": "/portfolio_react_template/static/media/landing-en.da4500468bcd0f9a303f.md",
-    "static/media/cursor.svg": "/portfolio_react_template/static/media/cursor.23b57b5941614fcffd31.svg",
-    "main.dd1e6d37.css.map": "/portfolio_react_template/static/css/main.dd1e6d37.css.map",
-    "main.2b53d058.js.map": "/portfolio_react_template/static/js/main.2b53d058.js.map",
+    "static/media/landing-nl.md": "/portfolio_react_template/static/media/landing-nl.af5e26b4ee8780e07447.md",
+    "main.46f8ce56.css.map": "/portfolio_react_template/static/css/main.46f8ce56.css.map",
+    "main.af7b211a.js.map": "/portfolio_react_template/static/js/main.af7b211a.js.map",
     "177.e6014084.chunk.js.map": "/portfolio_react_template/static/js/177.e6014084.chunk.js.map",
     "914.9b405f08.chunk.js.map": "/portfolio_react_template/static/js/914.9b405f08.chunk.js.map",
     "384.6dbd65a2.chunk.js.map": "/portfolio_react_template/static/js/384.6dbd65a2.chunk.js.map",
@@ -53,7 +54,7 @@
     "527.65b1fea7.chunk.js.map": "/portfolio_react_template/static/js/527.65b1fea7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd1e6d37.css",
-    "static/js/main.2b53d058.js"
+    "static/css/main.46f8ce56.css",
+    "static/js/main.af7b211a.js"
   ]
 }
