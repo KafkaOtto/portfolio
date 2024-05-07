@@ -4,5 +4,5 @@ I love great design pattern and well-maintained code.
 I am well acquainted with *backend*, *database* and *cloud technologies* and
 occasionally study frontend frameworks.
 
-In my free time, I love hiking 🥾, swimming 🏊, cooking 👨‍🍳 and watch movies 🎬.
+In my free time, I love hiking 🥾, swimming 🏊, cooking 👨‍🍳 and watching movies 🎬.
 There’s a lot of beauty in ordinary things. Isn’t that kind of the point?

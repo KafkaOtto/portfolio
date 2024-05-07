@@ -1,25 +1,34 @@
 {"projects":[
     {
-        "id": "other-project-post",
-        "title": "Part of Speech Tagger",
-        "year": "Aug 2019 - Dec 2019",
+        "id": "other-project-shortener",
+        "title": "Small Scale Url Shortener",
+        "year": "Feb 2024 - Mar 2024",
         "github": "https://github.com/KafkaOtto/flasker_url_shortener",
         "tags": ["Python", "Flask", "Docker", "Mysql", "Kubernetes"],
-        "description": "Post is a simple algorithm that was developed to tag a word in a sentence corresponding to its part of speech. The algorithm makes of a probabilistic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling.",
-        "image": "assets/other-projects/post.webp",
-        "jpg": "assets/other-projects/post.jpeg"
+        "description": "This project implements a URL shortener to convert long URLs into short ones, using MySQL as the database. It includes a shortening service with an ID hashing algorithm and an authentication service with JWT implementation. Both microservices are deployable on Kubernetes using Docker images.",
+        "image": "assets/other-projects/url_shortener.webp",
+        "jpg": "assets/other-projects/url_shortener.jpeg"
 
     },
     {
-        "id": "other-project-noq",
-        "title": "NoQ Job Portal",
-        "year": "Aug 2019 - Dec 2019",
-        "github": "https://github.com/hrishikeshpaul/noq",
-        "demo": "http://noq-client.herokuapp.com/login",
-        "tags": ["Vue", "NodeJS", "JavaScript", "MongoDB", "Heroku", "Agile", "Sockets", "JIRA"],
-        "description": "NoQ is a tool which allows for both employers and students to skip the hassle seen in modern day career fairs, while effectively pairing up students with employees based on various factors.",
-        "readMore": "https://hrishikeshpaul.medium.com/noq-a-job-portal-for-college-career-fairs-9996bbb37a1c",
-        "image": "assets/other-projects/noq.webp",
-        "jpg": "assets/other-projects/noq.jpeg"
+        "id": "other-project-portfolio",
+        "title": "Adapted Portfolio Template",
+        "year": "Apr 2024 - Apr 2024",
+        "github": "https://github.com/KafkaOtto/flasker_url_shortener",
+        "tags": ["Python", "Flask", "Docker", "Mysql", "Kubernetes"],
+        "description": "This project implements a URL shortener to convert long URLs into short ones, using MySQL as the database. It includes a shortening service with an ID hashing algorithm and an authentication service with JWT implementation. Both microservices are deployable on Kubernetes using Docker images.",
+        "image": "assets/other-projects/portfolio.webp",
+        "jpg": "assets/other-projects/portfolio.jpeg"
+
+    },
+    {
+        "id": "other-project-gol",
+        "title": "Conway's Game of Life Parallelism",
+        "year": "Jan 2024 - Jan 2024",
+        "github": "https://github.com/KafkaOtto/ppp_gol_c",
+        "tags": ["C++", "MPI", "MakeFile", "Shell"],
+        "description": "This project use C MPI to implement the parallel version of Game Of Life Algorithm and compare their performance.",
+        "image": "assets/other-projects/gol.webp",
+        "jpg": "assets/other-projects/gol.gif"
     }
 ]}

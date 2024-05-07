@@ -6,7 +6,7 @@
         "location": "Vrije Universiteit Amsterdam",
         "github": "https://github.com/KafkaOtto/journey_bill",
         "tags": ["Java", "VUE", "Kubernetes", "Docker", "MySQL", "Helm", "CI/CD", "Shell"],
-        "description": "A whole platform from frontend to backend fulfilling a bill function .",
+        "description": "Our platform integrates both frontend(VUE) and backend(Spring) to facilitate bill management. The application can be effortlessly deployed using Kubernetes alongside Docker images to record your bills with your friends on journey. Leveraging Kubernetes deployment, our system incorporates network policies and Role-Based Access Control (RBAC) to emulate real-world operational scenarios. We have Rolling Update and Canary Update options for smoother application upgrades.",
         "image": "assets/featured-projects/journey.webp",
         "jpg": "assets/featured-projects/journey.jpeg"
     },
@@ -16,8 +16,8 @@
         "year": "Nov 2023 - Dec 2023",
         "location": "Vrije Universiteit Amsterdam",
         "github": "https://github.com/zhiheng-yang/WDPS",
-        "tags": ["Python", "Jupyter Notebook", "SHell", "NLP", "Deep Learning"],
-        "description": "A collaboration with the NIH to build visualization tool to envision large biomedical datasets for researchers, doctors and experts.",
+        "tags": ["Python", "Jupyter Notebook", "Shell", "NLP", "Deep Learning"],
+        "description": "This application fulfills a light-weighted chatbox to provide similar chat-box interactions like chatGPT. Based on different techniques covering NLP, including named entity extraction, relation extraction, neural network and etc. The chatbox answer basic questions and detect if the questions is correct.",
         "image": "assets/featured-projects/wdps.webp",
         "jpg": "assets/featured-projects/wdps.jpg"
     }

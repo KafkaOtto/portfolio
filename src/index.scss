@@ -8,7 +8,7 @@ html,
 body,
 #root {
   height: 100%;
-  cursor: url(./utils/assets/cursor.svg) 20 20, auto !important;
+  //cursor: url(./utils/assets/cursor.svg) 20 20, auto !important;
 
   *::selection {
     background: var(--hp-colors-orange-200);
