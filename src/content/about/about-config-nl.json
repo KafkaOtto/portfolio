@@ -3,10 +3,10 @@
         {
             "id": "edu-2",
             "school": "Vrije Universiteit Amsterdam & University Of Amsterdam",
-            "degree": "Master in computerwetenschappen",
+            "degree": "Master in Computer Science",
             "duration": "Aug 2021 - Now",
             "content": [
-                "Cursussen: Data Structures, OOP, Algorithms, Software Engineering, Computer Networks, Artificial Intelligence"
+                "Courses: Data Structures, OOP, Algorithms, Software Engineering, Computer Networks, Artificial Intelligence"
             ]
         },
         {
@@ -15,7 +15,7 @@
             "degree": "Bachelor in Software Engineering",
             "duration": "Aug 2014 - June 2018",
             "content": [
-                "Cursussen: Web Services and Cloud-Based Systems, Distributed Systems, "
+                "Courses: Web Services and Cloud-Based Systems, Distributed Systems, "
             ]
         }
     ],
@@ -26,8 +26,9 @@
             "position": "Java Engineer",
             "duration": "Jun 2018 - Jun 2020",
             "description": [
-                "Development and maintenance of the OMS(Operating Management System) and the CLP(Customer Label Platform)",
-                "Systems are basically about big data platforms, --namely Hive, Spark, Hbase and Impala -- application in Java systems."
+                "Revamping the current report generation framework using React, that aggregates data from 30 modules to support an interactive cartesian system.​",
+                "Integrated user activity data from BigQuery into a custom tailored dashboard available to 10000+ clients.",
+                "Spearheaded the work on multiple reports for 5 priority clients to provide additional functionalities."
             ]
         },
         {
@@ -36,9 +37,9 @@
             "position": "Java Engineer",
             "duration": "Jun 2020 - August 2023",
             "description": [
-                "Mainly responsible for design and construct base Java frameworks, also maintain middle platform with Algorithm system.",
-                "Retryable, high-availability kafka framework: Kafka framework that is retryable and of high availability. Introduction of consumption multithreading and retry multithreading enables of high performance",
-                "Circuit Breaker Pattern Framework with retry schedule: framework of circuit breaker pattern that enables retry schedule when fallback."
+                "Developed state of the art visualization tools for researchers and doctors to envision large biological datasets using ​Angular 11​, Node & Vega.​",
+                "Devised an algorithm to compute statistics that highlight anomalies in the data and displayed them on an intuitive interface.",
+                "Created detailed UX flows, experience maps, wire-frames and conducted interviews across various biological consortia to enhance user experience."
             ]
         }
     ],
