@@ -2,15 +2,14 @@ import { FC } from "react";
 
 import { Center, Container, Heading, Image, HStack, Stack, Flex, Box, IconButton, Button } from "@chakra-ui/react";
 
-import { Content, useContent, MarkdownFile } from "shared/content/Content";
+import { Content } from "shared/content/Content";
 import { Socials } from "shared/socials/Socials";
 import { WorkPageId } from "utils/useScroll";
 import { ChevronDownIcon } from "utils/Icons";
 import {useTranslation} from "react-i18next";
 
 export const Landing: FC = () => {
-    const content = useContent(MarkdownFile.Landing);
-    const {t} = useTranslation(['landing']);
+    const {t} = useTranslation(['landingmd']);
 
     const scrollIntoView = () => {
         const featuredHeader = document.getElementById(WorkPageId);
@@ -35,7 +34,7 @@ export const Landing: FC = () => {
                                 {t('headline')}
                             </Heading>
                             <Content data-aos="fade-up" data-aos-delay="500" fontSize="lg">
-                                {content.landing}
+                                {t('content')}
                             </Content>
                         </Stack>
 

@@ -2,7 +2,7 @@ import { FC } from "react";
 
 import { Box, Flex, Heading, Text, Image, Button, IconButton } from "@chakra-ui/react";
 
-import { Content, MarkdownFile, useContent } from "shared/content/Content";
+import { Content } from "shared/content/Content";
 import { Blog } from "pages/about/blog/Blog";
 import { Education } from "pages/about/education/Education";
 import { Experience } from "pages/about/experience/Experience";
@@ -11,8 +11,7 @@ import { VolumeIcon } from "utils/Icons";
 import {useTranslation} from "react-i18next";
 
 export const About: FC = () => {
-    const content = useContent(MarkdownFile.About);
-    const {t} = useTranslation(['common']);
+    const {t} = useTranslation(['common', 'aboutmd']);
 
     const onPlay = () => {
         const audio = new Audio(t("audioFile", {ns: ['common']}));
@@ -49,7 +48,7 @@ export const About: FC = () => {
                     {/*    />*/}
                     {/*</Flex>*/}
                     <Box pt="4" data-aos="fade-up" data-aos-delay="400">
-                        <Content fontSize="lg">{content.about}</Content>
+                        <Content fontSize="lg">{t("content", {ns: "aboutmd"})}</Content>
                     </Box>
                 </Box>
             </Flex>
