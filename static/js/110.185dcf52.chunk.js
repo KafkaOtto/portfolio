@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio_3=self.webpackChunkportfolio_3||[]).push([[110],{7455:function(e,o,t){e.exports=t.p+"static/media/landingmd-en.da4500468bcd0f9a303f.md"}}]);
