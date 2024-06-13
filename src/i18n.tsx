@@ -1,7 +1,7 @@
 import i18next from 'i18next';
 import { initReactI18next } from "react-i18next";
 import ChainedBackend, { ChainedBackendOptions } from 'i18next-chained-backend'
-import mdToBackend from "./mk-loading";
+import multiResourcesBackend from "i18next-multi-to-backend";
 
 export const supportedLanguages = ['en', 'nl'];
 
@@ -15,11 +15,11 @@ i18next
         defaultNS: "about",
         backend: {
             backends: [
-                mdToBackend(
+                multiResourcesBackend(
                     (language:any, namespace:any) => import(`./content/${namespace}/${namespace}-config-${language}.json`)
                 ),
-                mdToBackend(
-                    (language:any, namespace:any) => import(`./content/markdown/${namespace}-${language}.md`)
+                multiResourcesBackend(
+                    (language:any, namespace:any) => import(`./content/markdown/${namespace}-${language}.md`), 'content'
                 )
             ]
         }

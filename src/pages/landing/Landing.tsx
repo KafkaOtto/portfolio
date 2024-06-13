@@ -9,7 +9,7 @@ import { ChevronDownIcon } from "utils/Icons";
 import {useTranslation} from "react-i18next";
 
 export const Landing: FC = () => {
-    const {t} = useTranslation(['landingmd']);
+    const {t} = useTranslation(['landing', 'landingmd']);
 
     const scrollIntoView = () => {
         const featuredHeader = document.getElementById(WorkPageId);
@@ -31,10 +31,10 @@ export const Landing: FC = () => {
                                 data-aos="fade-down"
                                 data-aos-delay="400"
                             >
-                                {t('headline')}
+                                {t('headline', {ns: 'landing'})}
                             </Heading>
                             <Content data-aos="fade-up" data-aos-delay="500" fontSize="lg">
-                                {t('content')}
+                                {t('content', {ns: 'landingmd'})}
                             </Content>
                         </Stack>
 
@@ -48,9 +48,9 @@ export const Landing: FC = () => {
                         data-aos-delay="400"
                     >
                         <picture>
-                            <source type="image/webp" src={t('picture')}></source>
-                            <source type="image/jpeg" src={t('jpg')}></source>
-                            <Image borderRadius="xl" src={t('jpg')} alt={`face-cover-image`} />
+                            <source type="image/webp" src={t('picture', {ns: 'landing'})}></source>
+                            <source type="image/jpeg" src={t('jpg', {ns: 'landing'})}></source>
+                            <Image borderRadius="xl" src={t('jpg', {ns: 'landing'})} alt={`face-cover-image`} />
                         </picture>
                     </Container>
                 </HStack>
